@@ -17,7 +17,7 @@ def main():
 
     # Step 1: Preprocess data
     df = preprocess_run()
-    logger.info("Data preprocessing completed")
+    logger.info("Data loading and preprocessing completed")
 
     # Step 2: Feature engineering
     df = add_features(df)
